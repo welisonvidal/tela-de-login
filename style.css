@@ -24,7 +24,8 @@ h1{
   color: rgba(255, 255, 255, 0.9);
   font-size: 26px;
   text-align: center;
-  padding-bottom: 26px;
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 .content {
@@ -32,14 +33,23 @@ h1{
   flex-direction: column;
   justify-content: center;
   width: 240px;
-  height: 360px;
+  height: 390px;
   background-color: rgba(255, 255, 255, 0.25);
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 12px;
   padding: 0px 40px;
+  padding-bottom: 15px;
   box-shadow: 0px 0px 25px #00000056;
 }
 
+#icone{
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
 
 input {
   outline: unset;
